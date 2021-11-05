@@ -10,7 +10,7 @@ This project scrapes data from http://books.toscrape.com/ and loads it into a My
 6. Load the data using `python code/main.py`. Again, you will need to match db_params to your MySQL configuration.
 
 # Recommended Testing instructions:
-I used MySQL for demo purposes. If you don't want to mess with that, I added a flag to load the data into a csv file instead for convienience. The final output is the same.
+I used MySQL for demo purposes. If you don't want to mess with that, I added a flag which will load the data into a csv file instead for convienience. The final output is the same.
 
 1. You will need an Anaconda installation from here -https://www.anaconda.com/products/individual
 1. Install the conda environment: `conda env create -f environment.yaml`
